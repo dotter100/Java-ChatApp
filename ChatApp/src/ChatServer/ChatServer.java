@@ -1,7 +1,5 @@
 package ChatServer;
 
-import Server.Manger;
-
 import javax.net.ServerSocketFactory;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -17,8 +15,6 @@ class ChatServer {
     private ServerSocket serverSocket;
 
     private Socket socket = null;
-
-    private Manger ClientManger = new Manger();
 
     protected static HashSet<ObjectOutputStream> writers = new HashSet<>();
 

@@ -2,8 +2,6 @@ package ChatServer;
 
 import ChatShare.Request;
 import ChatShare.RequestType;
-import Login.User;
-import Server.Room;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
